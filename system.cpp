@@ -1,10 +1,10 @@
+// Loops (for, while ,do-while)
 #include <iostream>
 using namespace std;
-int main () {
-    int age ;
-    cout << "Enter your age:";
-    cin >> age;
-    cout <<"you are" << age << "years old." <<endl;
-    return 0;
-    
+int main() {
+    for (int i= 1; i <=10; i++) {
+        cout << i << " ";
+
+    }
+return 0;
 }
